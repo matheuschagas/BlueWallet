@@ -428,6 +428,7 @@
     "details_multisig_type": "multisig",
     "details_no_cancel": "No, cancel",
     "details_show_xpub": "Show Wallet XPUB",
+    "details_make_it_watch_only": "Make it Watch-Only",
     "details_show_addresses": "Show addresses",
     "details_title": "Wallet",
     "wallets": "Wallets",

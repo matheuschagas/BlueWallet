@@ -659,10 +659,16 @@ const WalletDetails: React.FC = () => {
                 </>
               )}
               {wallet.allowSignVerifyMessage && wallet.allowSignVerifyMessage() && (
-                <>
-                  <BlueSpacing20 />
-                  <SecondButton onPress={navigateToSignVerify} testID="SignVerify" title={loc.addresses.sign_title} />
-                </>
+                  <>
+                    <BlueSpacing20 />
+                    <SecondButton onPress={navigateToSignVerify} testID="SignVerify" title={loc.addresses.sign_title} />
+                  </>
+              )}
+              {wallet.allowSignVerifyMessage && wallet.allowSignVerifyMessage() && (
+                  <>
+                    <BlueSpacing20 />
+                    <SecondButton onPress={navigateToSignVerify} testID="MakeItWatchOnly" title={loc.wallets.details_make_it_watch_only} />
+                  </>
               )}
               <BlueSpacing20 />
               <BlueSpacing20 />
